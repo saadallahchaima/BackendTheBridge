@@ -107,4 +107,4 @@ https://github.com/user-attachments/assets/4d3cab15-0aa2-46d3-a95b-1dfce1d84c61
 
 
 
-Cliquez sur l'image pour regarder la vidéo.
+Cliquez pour regarder la vidéo.
