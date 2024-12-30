@@ -30,7 +30,7 @@ Une application de gestion de cours développée avec **Spring Boot**, **Flutter
 ## 🛠 Prérequis
 
 ### Backend
-- **Java 17+**
+- **Java 21+**
 - **Maven**
 
 ### Frontend
