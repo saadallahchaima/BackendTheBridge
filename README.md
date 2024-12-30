@@ -1,36 +1,55 @@
-#Démo : Gestion de Cours
-Une application démonstrative pour la gestion de cours, développée avec Spring Boot, Flutter, et H2. Ce projet met en avant des fonctionnalités essentielles telles que l'affichage, la consultation, la mise à jour et la suppression de cours, ainsi qu'une interface admin simple et une landing page.
-Fonctionnalités
-Backend (Spring Boot) :
-API REST :
-Liste tous les cours.
-Consulte les détails d’un cours.
-Met à jour les informations d’un cours.
-Supprime un cours.
-Frontend (Flutter) :
-Landing Page : Présente les fonctionnalités principales.
-Interface Admin :
-Affiche la liste des cours.
-Permet de consulter, mettre à jour ou supprimer un cours.
-Formulaire pour ajouter ou modifier un cours.
-Base de données (H2) :
-Base de données embarquée utilisée pour stocker les données des cours.
-Console H2 disponible pour la gestion manuelle et l’inspection des données.
-Prérequis
-Backend :
-Java 17+
-Maven
-Frontend :
-Flutter (Dart SDK 3.0 ou supérieur)
-Base de données :
-H2 (intégré dans Spring Boot)
-Installation
-Étape 1 : Backend (Spring Boot)
-Clonez le projet :
 
-bash
-Copier le code
-git clone https://github.com/ton-utilisateur/demo-gestion-cours.git
+https://github.com/user-attachments/assets/5cf0c0fb-1e1c-417e-be2d-93e4995ab902
+# Démo : Gestion de Cours
+
+Une application de gestion de cours développée avec **Spring Boot**, **Flutter** et **H2**. Ce projet présente des fonctionnalités essentielles pour la gestion des cours, telles que l'affichage, la consultation, la mise à jour et la suppression des cours, avec une interface administrateur simple et une landing page attrayante.
+
+---
+
+## 🚀 Fonctionnalités
+
+### Backend (Spring Boot)
+- **API REST** :
+  - Liste tous les cours.
+  - Consulte les détails d’un cours.
+  - Met à jour les informations d’un cours.
+  - Supprime un cours.
+
+### Frontend (Flutter)
+- **Landing Page** :
+  - Présente les fonctionnalités principales de l'application.
+- **Interface Admin** :
+  - Affiche la liste des cours.
+  - Permet de consulter, mettre à jour ou supprimer un cours.
+  - Formulaire pour ajouter ou modifier un cours.
+
+### Base de données (H2)
+- Base de données embarquée utilisée pour stocker les données des cours.
+- Console H2 disponible pour la gestion manuelle et l’inspection des données.
+
+---
+
+## 🛠 Prérequis
+
+### Backend
+- **Java 17+**
+- **Maven**
+
+### Frontend
+- **Flutter** (Dart SDK 3.0 ou supérieur)
+
+### Base de données
+- **H2** (intégré dans Spring Boot)
+
+---
+
+## 📦 Installation
+
+### Étape 1 : Backend (Spring Boot)
+1. Clonez le projet :
+
+   ```bash
+   git clone https://github.com/saadallahchaima/BackendTheBridge.git
 Accédez au répertoire du backend :
 
 bash
@@ -41,7 +60,7 @@ Installez les dépendances et démarrez le serveur Spring Boot :
 bash
 Copier le code
 ./mvnw spring-boot:run
-Accédez à la console H2 via :
+Accédez à la console H2 via l'URL suivante :
 
 URL : http://localhost:8080/h2-console
 JDBC URL : jdbc:h2:mem:testdb
@@ -63,21 +82,31 @@ Lancez l'application :
 bash
 Copier le code
 flutter run
-Utilisation
+🖥 Utilisation
 Landing Page : Accédez à la page d'accueil pour découvrir les fonctionnalités de l'application.
 Interface Admin :
 Consultez la liste des cours.
 Ajoutez, mettez à jour ou supprimez des cours via l’interface dédiée.
-Structure du Projet
-graphql
+📂 Structure du Projet
+bash
 Copier le code
 demo-gestion-cours/
 ├── backend/        # API Spring Boot et base de données H2
 ├── frontend/       # Application Flutter pour le frontend
 └── README.md       # Documentation du projet
-Auteur
+
+👩‍💻 Auteur
+
 Chaima Saadallah
 Étudiante en ingénierie informatique, spécialisée en développement mobile et web.
-#Démo
-https://github.com/user-attachments/assets/9a923e9d-5aaf-48e7-aadd-cd948f1619b3
 
+🎥 Démo Vidéo
+Voici une vidéo de démonstration de l'application :
+
+
+
+https://github.com/user-attachments/assets/4d3cab15-0aa2-46d3-a95b-1dfce1d84c61
+
+
+
+Cliquez sur l'image pour regarder la vidéo.
