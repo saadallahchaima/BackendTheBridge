@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/5cf0c0fb-1e1c-417e-be2d-93e4995ab902
 # Démo : Gestion de Cours
 
 Une application de gestion de cours développée avec **Spring Boot**, **Flutter** et **H2**. Ce projet présente des fonctionnalités essentielles pour la gestion des cours, telles que l'affichage, la consultation, la mise à jour et la suppression des cours, avec une interface administrateur simple et une landing page attrayante.
